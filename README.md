@@ -1,0 +1,1 @@
+# nancygespens-qamid-diplom-1
