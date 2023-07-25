@@ -1,6 +1,6 @@
 # Ручное тестирование
 
-При ручном тестировании использовался составленный ранее [список тест-кейсов](https://github.com/nancygespens/nancygespens-qamid-diplom-1/blob/7151ad78999103ef515298d1476591244c8e5cc2/Cases.xlsx), состоящий из функциональных и не функциональных тестов. При его прохождениии ,было выявлено и оформлено [13 дефектов](https://github.com/EugenyVinogradov/DiplomMiddleQA/issues).
+При ручном тестировании использовался составленный ранее [список тест-кейсов](https://github.com/nancygespens/nancygespens-qamid-diplom-1/blob/7151ad78999103ef515298d1476591244c8e5cc2/Cases.xlsx), состоящий из функциональных и не функциональных тестов. При его прохождениии ,было выявлено и оформлено [13 дефектов]([https://github.com/EugenyVinogradov/DiplomMiddleQA/issues](https://github.com/nancygespens/nancygespens-qamid-diplom-1/issues).
 
 
 # Автоматизированниое тестирование
