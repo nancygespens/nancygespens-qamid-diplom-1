@@ -21,8 +21,8 @@ import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.ui.AppActivity;
 
 @Epic("Тестирование страницы Цитаты")
-
 @RunWith(AllureAndroidJUnit4.class)
+
 public class QuotesPageTest {
 
   @Before

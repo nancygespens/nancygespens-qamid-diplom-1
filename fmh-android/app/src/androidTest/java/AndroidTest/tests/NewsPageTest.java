@@ -24,8 +24,8 @@ import ru.iteco.fmhandroid.R;
 import ru.iteco.fmhandroid.ui.AppActivity;
 
 @Epic("Тестирование страницы Новости")
-
 @RunWith(AllureAndroidJUnit4.class)
+
 public class NewsPageTest {
 
 

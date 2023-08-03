@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.iteco.fmhandroid"
+4    android:versionCode="14"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/5e5db89f999ef7dd22c73172522bc061/transformed/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/5e5db89f999ef7dd22c73172522bc061/transformed/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+14-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+15    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+15-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nancygespens/.gradle/caches/transforms-3/2d958174946dc1aaaae27c1730e0a0ed/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nancygespens/.gradle/caches/transforms-3/2d958174946dc1aaaae27c1730e0a0ed/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+16
+17    <application
+17-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:8:5-27:19
+18        android:name="ru.iteco.fmhandroid.application.FhmApplication"
+18-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:9:9-70
+19        android:allowBackup="false"
+19-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:11:9-36
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/nancygespens/.gradle/caches/transforms-3/e2cad84f024377fc975df5d3d10dfd8b/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:12:9-43
+23        android:label="@string/app_name"
+23-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:13:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:14:9-54
+25        android:supportsRtl="true"
+25-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:15:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.FMHAndroid"
+27-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:16:9-48
+28        android:usesCleartextTraffic="true" >
+28-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:10:9-44
+29        <activity
+29-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:18:9-26:20
+30            android:name="ru.iteco.fmhandroid.ui.AppActivity"
+30-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:19:13-62
+31            android:exported="true" >
+31-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:20:13-36
+32            <intent-filter>
+32-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:22:13-25:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:23:17-69
+33-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:24:17-77
+35-->/Users/nancygespens/Documents/GitHub/nancygespens-qamid-diplom-1/fmh-android/app/src/main/AndroidManifest.xml:24:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[com.google.firebase:firebase-crashlytics-ktx:18.2.6] /Users/nancygespens/.gradle/caches/transforms-3/11173a9ed158e6049cd040db14404e15/transformed/jetified-firebase-crashlytics-ktx-18.2.6/AndroidManifest.xml:24:9-30:19
+40            android:name="com.google.firebase.components.ComponentDiscoveryService"
+40-->[com.google.firebase:firebase-crashlytics-ktx:18.2.6] /Users/nancygespens/.gradle/caches/transforms-3/11173a9ed158e6049cd040db14404e15/transformed/jetified-firebase-crashlytics-ktx-18.2.6/AndroidManifest.xml:25:13-84
+41            android:directBootAware="true"
+41-->[com.google.firebase:firebase-common:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/5a80de1f16ad3c7655403fd807fe36a9/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+42            android:exported="false" >
+42-->[com.google.firebase:firebase-crashlytics-ktx:18.2.6] /Users/nancygespens/.gradle/caches/transforms-3/11173a9ed158e6049cd040db14404e15/transformed/jetified-firebase-crashlytics-ktx-18.2.6/AndroidManifest.xml:26:13-37
+43            <meta-data
+43-->[com.google.firebase:firebase-crashlytics-ktx:18.2.6] /Users/nancygespens/.gradle/caches/transforms-3/11173a9ed158e6049cd040db14404e15/transformed/jetified-firebase-crashlytics-ktx-18.2.6/AndroidManifest.xml:27:13-29:85
+44                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+44-->[com.google.firebase:firebase-crashlytics-ktx:18.2.6] /Users/nancygespens/.gradle/caches/transforms-3/11173a9ed158e6049cd040db14404e15/transformed/jetified-firebase-crashlytics-ktx-18.2.6/AndroidManifest.xml:28:17-130
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-crashlytics-ktx:18.2.6] /Users/nancygespens/.gradle/caches/transforms-3/11173a9ed158e6049cd040db14404e15/transformed/jetified-firebase-crashlytics-ktx-18.2.6/AndroidManifest.xml:29:17-82
+46            <meta-data
+46-->[com.google.firebase:firebase-analytics-ktx:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/5d1d369d3d1d26a809e52aa846c47666/transformed/jetified-firebase-analytics-ktx-20.0.2/AndroidManifest.xml:11:13-13:85
+47                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+47-->[com.google.firebase:firebase-analytics-ktx:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/5d1d369d3d1d26a809e52aa846c47666/transformed/jetified-firebase-analytics-ktx-20.0.2/AndroidManifest.xml:12:17-126
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-analytics-ktx:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/5d1d369d3d1d26a809e52aa846c47666/transformed/jetified-firebase-analytics-ktx-20.0.2/AndroidManifest.xml:13:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/acd180f1f34c3c06863224dbd56d2af8/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+50                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+50-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/acd180f1f34c3c06863224dbd56d2af8/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/acd180f1f34c3c06863224dbd56d2af8/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-crashlytics:18.2.6] /Users/nancygespens/.gradle/caches/transforms-3/d7a9dd0b300f8547509dcb69bf2cd2a0/transformed/jetified-firebase-crashlytics-18.2.6/AndroidManifest.xml:18:13-20:85
+53                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+53-->[com.google.firebase:firebase-crashlytics:18.2.6] /Users/nancygespens/.gradle/caches/transforms-3/d7a9dd0b300f8547509dcb69bf2cd2a0/transformed/jetified-firebase-crashlytics-18.2.6/AndroidManifest.xml:19:17-115
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-crashlytics:18.2.6] /Users/nancygespens/.gradle/caches/transforms-3/d7a9dd0b300f8547509dcb69bf2cd2a0/transformed/jetified-firebase-crashlytics-18.2.6/AndroidManifest.xml:20:17-82
+55            <meta-data
+55-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/5e5db89f999ef7dd22c73172522bc061/transformed/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+56                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+56-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/5e5db89f999ef7dd22c73172522bc061/transformed/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/5e5db89f999ef7dd22c73172522bc061/transformed/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-installations:17.0.0] /Users/nancygespens/.gradle/caches/transforms-3/e5b2028fc07d17775ac6e8d765acd13f/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+59                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+59-->[com.google.firebase:firebase-installations:17.0.0] /Users/nancygespens/.gradle/caches/transforms-3/e5b2028fc07d17775ac6e8d765acd13f/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-installations:17.0.0] /Users/nancygespens/.gradle/caches/transforms-3/e5b2028fc07d17775ac6e8d765acd13f/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+61        </service>
+62
+63        <provider
+63-->[com.google.firebase:firebase-common:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/5a80de1f16ad3c7655403fd807fe36a9/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+64            android:name="com.google.firebase.provider.FirebaseInitProvider"
+64-->[com.google.firebase:firebase-common:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/5a80de1f16ad3c7655403fd807fe36a9/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+65            android:authorities="ru.iteco.fmhandroid.firebaseinitprovider"
+65-->[com.google.firebase:firebase-common:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/5a80de1f16ad3c7655403fd807fe36a9/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/5a80de1f16ad3c7655403fd807fe36a9/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+67            android:exported="false"
+67-->[com.google.firebase:firebase-common:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/5a80de1f16ad3c7655403fd807fe36a9/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+68            android:initOrder="100" />
+68-->[com.google.firebase:firebase-common:20.0.0] /Users/nancygespens/.gradle/caches/transforms-3/5a80de1f16ad3c7655403fd807fe36a9/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+69
+70        <receiver
+70-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+71            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+71-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+73            android:exported="false" >
+73-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+74        </receiver>
+75
+76        <service
+76-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+77            android:name="com.google.android.gms.measurement.AppMeasurementService"
+77-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+78            android:enabled="true"
+78-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+79            android:exported="false" />
+79-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+80        <service
+80-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+81            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+81-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+82            android:enabled="true"
+82-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+84            android:permission="android.permission.BIND_JOB_SERVICE" />
+84-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/nancygespens/.gradle/caches/transforms-3/4830820af674312e1c7d741df784e260/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nancygespens/.gradle/caches/transforms-3/8c5253334e6584498efd74f29f70a825/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nancygespens/.gradle/caches/transforms-3/8c5253334e6584498efd74f29f70a825/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nancygespens/.gradle/caches/transforms-3/8c5253334e6584498efd74f29f70a825/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+89
+90        <service
+90-->[androidx.room:room-runtime:2.4.2] /Users/nancygespens/.gradle/caches/transforms-3/773f755c24da3460c67bc571a7962ceb/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+91            android:name="androidx.room.MultiInstanceInvalidationService"
+91-->[androidx.room:room-runtime:2.4.2] /Users/nancygespens/.gradle/caches/transforms-3/773f755c24da3460c67bc571a7962ceb/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+92            android:directBootAware="true"
+92-->[androidx.room:room-runtime:2.4.2] /Users/nancygespens/.gradle/caches/transforms-3/773f755c24da3460c67bc571a7962ceb/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+93            android:exported="false" />
+93-->[androidx.room:room-runtime:2.4.2] /Users/nancygespens/.gradle/caches/transforms-3/773f755c24da3460c67bc571a7962ceb/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+94        <service
+94-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/8b087b33b97df3b11765c6dc13696291/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+95            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+95-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/8b087b33b97df3b11765c6dc13696291/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+96            android:exported="false" >
+96-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/8b087b33b97df3b11765c6dc13696291/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+97            <meta-data
+97-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/8b087b33b97df3b11765c6dc13696291/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+98                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+98-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/8b087b33b97df3b11765c6dc13696291/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+99                android:value="cct" />
+99-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/8b087b33b97df3b11765c6dc13696291/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+100        </service>
+101        <service
+101-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/f5ef1846d382a57e573680ed31d04cd0/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+102            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+102-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/f5ef1846d382a57e573680ed31d04cd0/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+103            android:exported="false"
+103-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/f5ef1846d382a57e573680ed31d04cd0/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+104            android:permission="android.permission.BIND_JOB_SERVICE" >
+104-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/f5ef1846d382a57e573680ed31d04cd0/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+105        </service>
+106
+107        <receiver
+107-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/f5ef1846d382a57e573680ed31d04cd0/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+108            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+108-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/f5ef1846d382a57e573680ed31d04cd0/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+109            android:exported="false" />
+109-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/nancygespens/.gradle/caches/transforms-3/f5ef1846d382a57e573680ed31d04cd0/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.0.0] /Users/nancygespens/.gradle/caches/transforms-3/daa525d29c6dc13bc80c02d2ed884f67/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.0.0] /Users/nancygespens/.gradle/caches/transforms-3/daa525d29c6dc13bc80c02d2ed884f67/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+113            android:authorities="ru.iteco.fmhandroid.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.0.0] /Users/nancygespens/.gradle/caches/transforms-3/daa525d29c6dc13bc80c02d2ed884f67/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.0.0] /Users/nancygespens/.gradle/caches/transforms-3/daa525d29c6dc13bc80c02d2ed884f67/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.0.0] /Users/nancygespens/.gradle/caches/transforms-3/daa525d29c6dc13bc80c02d2ed884f67/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.0.0] /Users/nancygespens/.gradle/caches/transforms-3/daa525d29c6dc13bc80c02d2ed884f67/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.0.0] /Users/nancygespens/.gradle/caches/transforms-3/daa525d29c6dc13bc80c02d2ed884f67/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nancygespens/.gradle/caches/transforms-3/6a7fbaa7c858003749dc90784564f548/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nancygespens/.gradle/caches/transforms-3/6a7fbaa7c858003749dc90784564f548/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nancygespens/.gradle/caches/transforms-3/6a7fbaa7c858003749dc90784564f548/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+121        </provider>
+122    </application>
+123
+124</manifest>

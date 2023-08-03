@@ -23,8 +23,8 @@ import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.ui.AppActivity;
 
 @Epic("Тестирование страницы О приложении")
-
 @RunWith(AllureAndroidJUnit4.class)
+
 public class AboutPageTest {
 
   @Before

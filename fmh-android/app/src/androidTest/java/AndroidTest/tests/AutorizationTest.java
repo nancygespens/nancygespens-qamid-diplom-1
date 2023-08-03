@@ -25,8 +25,8 @@ import ru.iteco.fmhandroid.ui.AppActivity;
 
 
 @Epic("Тестирование страницы авторизации приложения")
-
 @RunWith(AllureAndroidJUnit4.class)
+
 public class AutorizationTest {
 
   @Before

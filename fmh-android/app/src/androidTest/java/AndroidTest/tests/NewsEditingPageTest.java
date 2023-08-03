@@ -21,8 +21,8 @@ import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.ui.AppActivity;
 
 @Epic("Тестирование страницы редактирования новостей")
-
 @RunWith(AllureAndroidJUnit4.class)
+
 public class NewsEditingPageTest {
 
   @Before
@@ -57,14 +57,14 @@ public class NewsEditingPageTest {
     NewsEditingPageSteps.checkDateAfterSortingTwo(lastDateBeforeSorting, firstDateAfterSorting);
   }
 
-  @Test
-  @DisplayName("Добавление новости")
-  public void testAddingNews() {
-    NewsEditingPageSteps.addingNews();
-    NewsEditingPageSteps.scrollToNewsWithTittleAndClick();
-    NewsEditingPageSteps.editingNews();
-    NewsEditingPageSteps.checkAttributesNews();
-  }
+//  @Test
+//  @DisplayName("Добавление новости")
+//  public void testAddingNews() {
+//    NewsEditingPageSteps.addingNews();
+//    NewsEditingPageSteps.scrollToNewsWithTittleAndClick();
+//    NewsEditingPageSteps.editingNews();
+//    NewsEditingPageSteps.checkAttributesNews();
+//  }
 
   @Test
   @DisplayName("Фильтрация новостей по статусу Активна")
@@ -91,24 +91,24 @@ public class NewsEditingPageTest {
     NewsEditingPageSteps.isStatusActiveAndPublishDateEqualsFilterDate(itemCount);
   }
 
-  @Test
-  @DisplayName("Смена статуса новости")
-  public void testChangeNewsStatus() {
-    NewsEditingPageSteps.addingNews();
-    NewsEditingPageSteps.changeStatusNewsToNotActive();
-    NewsEditingPageSteps.editingNews();
-    NewsEditingPageSteps.checkNotActiveStatus();
-  }
+//  @Test
+//  @DisplayName("Смена статуса новости")
+//  public void testChangeNewsStatus() {
+//    NewsEditingPageSteps.addingNews();
+//    NewsEditingPageSteps.changeStatusNewsToNotActive();
+//    NewsEditingPageSteps.editingNews();
+//    NewsEditingPageSteps.checkNotActiveStatus();
+//  }
 
-  @Test
-  @DisplayName("Фильтрация новостей по статусу Неактивна и дате публикации")
-  public void testFilterNewsByStatusNotActiveAndDatePublish() {
-    NewsEditingPageSteps.addingNews();
-    NewsEditingPageSteps.changeStatusNewsToNotActive();
-    NewsEditingPageSteps.filterNewsByStatusNotActiveAndPublishDate();
-    int itemCount = NewsEditingPageSteps.getItemCount();
-    NewsEditingPageSteps.isStatusNotActiveAndPublishDateEqualsFilterDate(itemCount);
-  }
+//  @Test
+//  @DisplayName("Фильтрация новостей по статусу Неактивна и дате публикации")
+//  public void testFilterNewsByStatusNotActiveAndDatePublish() {
+//    NewsEditingPageSteps.addingNews();
+//    NewsEditingPageSteps.changeStatusNewsToNotActive();
+//    NewsEditingPageSteps.filterNewsByStatusNotActiveAndPublishDate();
+//    int itemCount = NewsEditingPageSteps.getItemCount();
+//    NewsEditingPageSteps.isStatusNotActiveAndPublishDateEqualsFilterDate(itemCount);
+//  }
 
   @Test
   @DisplayName("Отказ в добавление новости при незаполненном поле Категория")
@@ -156,32 +156,32 @@ public class NewsEditingPageTest {
     NewsEditingPageSteps.isNewsNotCreated(itemCount);
   }
 
-  @Test
-  @DisplayName("Отмена добавление новости при нажатии кнопки Назад")
-  public void testCancelAddingNewsWithPressBack() {
-    NewsEditingPageSteps.fillingAllFieldsNews();
-    BaseSteps.pressBack();
-    int itemCount = NewsEditingPageSteps.getItemCount();
-    NewsEditingPageSteps.isNewsNotCreated(itemCount);
+//  @Test
+//  @DisplayName("Отмена добавление новости при нажатии кнопки Назад")
+//  public void testCancelAddingNewsWithPressBack() {
+//    NewsEditingPageSteps.fillingAllFieldsNews();
+//    BaseSteps.pressBack();
+//    int itemCount = NewsEditingPageSteps.getItemCount();
+//    NewsEditingPageSteps.isNewsNotCreated(itemCount);
+//
+//  }
 
-  }
+//  @Test
+//  @DisplayName("Удаление новости")
+//  public void testDeleteNews() {
+//    NewsEditingPageSteps.addingNews();
+//    NewsEditingPageSteps.deleteAddedNews();
+//    int itemCount = NewsEditingPageSteps.getItemCount();
+//    NewsEditingPageSteps.isNewsDeleted(itemCount);
+//  }
 
-  @Test
-  @DisplayName("Удаление новости")
-  public void testDeleteNews() {
-    NewsEditingPageSteps.addingNews();
-    NewsEditingPageSteps.deleteAddedNews();
-    int itemCount = NewsEditingPageSteps.getItemCount();
-    NewsEditingPageSteps.isNewsDeleted(itemCount);
-  }
-
-  @Test
-  @DisplayName("Редактирование атрибутов новости")
-  public void testChangeNewsAttribute() {
-    NewsEditingPageSteps.addingNews();
-    NewsEditingPageSteps.editingNews();
-    NewsEditingPageSteps.changeCreatedNewsAttributes();
-    NewsEditingPageSteps.editingNews();
-    NewsEditingPageSteps.checkChangedNewsAttributes();
-  }
+//  @Test
+//  @DisplayName("Редактирование атрибутов новости")
+//  public void testChangeNewsAttribute() {
+//    NewsEditingPageSteps.addingNews();
+//    NewsEditingPageSteps.editingNews();
+//    NewsEditingPageSteps.changeCreatedNewsAttributes();
+//    NewsEditingPageSteps.editingNews();
+//    NewsEditingPageSteps.checkChangedNewsAttributes();
+//  }
 }

@@ -141,7 +141,7 @@ public class DataHelper {
   }
 
   public static ViewInteraction emptyToast(int id) {
-    return onView(withText(id)).inRoot(new ToastMatcher());
+    return onView(withText(id)).inRoot(new DataHelper.ToastMatcher());
   }
 
   public static ViewInteraction checkToast(int id, boolean visible) {
